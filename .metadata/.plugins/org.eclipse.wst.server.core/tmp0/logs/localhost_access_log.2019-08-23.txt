@@ -24,3 +24,10 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2019:19:59:35 +0530] "GET /notes/cookies-personalize-response.jsp?favoriteLanguage=PHP HTTP/1.1" 200 166
 0:0:0:0:0:0:0:1 - - [23/Aug/2019:19:59:36 +0530] "GET /notes/cookies-homepage.jsp HTTP/1.1" 200 436
 0:0:0:0:0:0:0:1 - - [23/Aug/2019:20:01:00 +0530] "GET /notes/cookies-homepage.jsp HTTP/1.1" 200 436
+127.0.0.1 - - [23/Aug/2019:22:42:29 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [23/Aug/2019:22:42:36 +0530] "GET /notes/test.jsp HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [23/Aug/2019:22:42:36 +0530] "GET /favicon.ico HTTP/1.1" 404 1047
+127.0.0.1 - - [23/Aug/2019:23:45:03 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [23/Aug/2019:23:45:05 +0530] "GET /notes/foreach-student-test.jsp HTTP/1.1" 500 2513
+0:0:0:0:0:0:0:1 - - [23/Aug/2019:23:50:57 +0530] "GET /notes/foreach-student-test.jsp HTTP/1.1" 200 141
+0:0:0:0:0:0:0:1 - - [23/Aug/2019:23:58:03 +0530] "GET /notes/foreach-student-test.jsp HTTP/1.1" 200 369
