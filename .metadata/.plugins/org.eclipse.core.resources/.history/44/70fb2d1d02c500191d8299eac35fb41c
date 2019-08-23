@@ -1,0 +1,14 @@
+
+
+<body>
+
+<form action="todo-demo.jsp">
+Add new item: <input type="text" name="theItem" />
+<input type="submit" value="Submit" />
+</form>
+
+<br>
+Item entered: <%= request.getParameter("theItem") %>
+
+</body>
+
