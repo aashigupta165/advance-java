@@ -27,3 +27,8 @@
 0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:25:16 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=de_DE HTTP/1.1" 200 455
 0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:27:09 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=de_DE HTTP/1.1" 200 457
 0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:27:19 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=es_ES HTTP/1.1" 200 457
+127.0.0.1 - - [24/Aug/2019:12:32:05 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:32:08 +0530] "GET /notes/i18n-messages-test.jsp HTTP/1.1" 200 459
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:33:39 +0530] "GET /notes/i18n-messages-test.jsp HTTP/1.1" 200 433
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:33:43 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=es_ES HTTP/1.1" 200 441
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:33:45 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=de_DE HTTP/1.1" 200 434
