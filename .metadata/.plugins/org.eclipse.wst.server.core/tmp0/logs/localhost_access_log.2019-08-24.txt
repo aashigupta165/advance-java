@@ -32,3 +32,13 @@
 0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:33:39 +0530] "GET /notes/i18n-messages-test.jsp HTTP/1.1" 200 433
 0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:33:43 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=es_ES HTTP/1.1" 200 441
 0:0:0:0:0:0:0:1 - - [24/Aug/2019:12:33:45 +0530] "GET /notes/i18n-messages-test.jsp?theLocale=de_DE HTTP/1.1" 200 434
+127.0.0.1 - - [24/Aug/2019:21:39:36 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:21:39:37 +0530] "GET /notes/HelloWorldServelet HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:21:39:37 +0530] "GET /favicon.ico HTTP/1.1" 404 1047
+127.0.0.1 - - [24/Aug/2019:22:20:07 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:22:20:08 +0530] "GET /notes/StudentServelet HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:22:20:25 +0530] "GET /notes/student-form.html HTTP/1.1" 200 283
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:22:20:37 +0530] "GET /notes/StudentServelet?firstName=aashi&lastName=gupta HTTP/1.1" 200 69
+127.0.0.1 - - [24/Aug/2019:22:54:47 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:22:54:48 +0530] "GET /notes/TestParamServelet HTTP/1.1" 200 75
+0:0:0:0:0:0:0:1 - - [24/Aug/2019:22:58:20 +0530] "GET /notes/TestParamServelet HTTP/1.1" 200 75
